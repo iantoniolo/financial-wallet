@@ -1,7 +1,9 @@
 ````markdown
 # Financial Wallet API
 
-Este é o projeto `Financial Wallet API`, uma API modularizada que permite gerenciar usuários, autenticação e transações financeiras. Ele utiliza [NestJS](https://nestjs.com/) para fornecer uma arquitetura robusta e escalável, combinada com PostgreSQL para o armazenamento de dados.
+Este é o projeto `Financial Wallet API`, uma API modularizada que permite gerenciar usuários,
+autenticação e transações financeiras. Ele utiliza [NestJS](https://nestjs.com/) para fornecer
+uma arquitetura robusta e escalável, combinada com PostgreSQL para o armazenamento de dados.
 
 ## Conteúdos
 
@@ -68,7 +70,3 @@ Esta documentação detalha todos os endpoints disponíveis, os parâmetros espe
 ---
 
 Este projeto foi configurado utilizando uma arquitetura modular baseada no NestJS, visando escalabilidade e organização. A utilização de TypeScript permite um código mais seguro e manutenível.
-
-```
-
-```
