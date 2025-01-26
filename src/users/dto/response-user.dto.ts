@@ -16,6 +16,6 @@ export class ResponseUserDto {
   @ApiProperty({ example: 1000.55 })
   balance: number;
 
-  @ApiProperty({ example: 'admin' })
+  @ApiProperty({ example: false })
   isAdmin: boolean;
 }
