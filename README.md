@@ -1,4 +1,3 @@
-````markdown
 # Financial Wallet API
 
 Este é o projeto `Financial Wallet API`, uma API modularizada que permite gerenciar usuários,
@@ -32,7 +31,6 @@ POSTGRES_DB=financial_wallet
 JWT_SECRET=<seu_segredo_jwt>
 PORT=3000
 ```
-````
 
 ## Execução do Projeto
 
