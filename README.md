@@ -11,8 +11,6 @@ uma arquitetura robusta e escalável, combinada com PostgreSQL para o armazename
 - [Execução do Projeto](#execução-do-projeto)
 - [Funcionalidades](#funcionalidades)
 - [Documentação da API](#documentação-da-api)
-- [Testes](#testes)
-- [Contribuindo](#contribuindo)
 
 ## Pré-requisitos
 
@@ -25,10 +23,11 @@ uma arquitetura robusta e escalável, combinada com PostgreSQL para o armazename
 Antes de executar o projeto, você precisa criar um arquivo `.env` na raiz do projeto com as seguintes variáveis:
 
 ```dotenv
-POSTGRES_USER=<seu_usuario>
-POSTGRES_PASSWORD=<sua_senha>
+POSTGRES_HOST=postgres
+POSTGRES_USER=myuser
+POSTGRES_PASSWORD=mypassword
 POSTGRES_DB=financial_wallet
-JWT_SECRET=<seu_segredo_jwt>
+JWT_SECRET=mysecret
 PORT=3000
 ```
 
