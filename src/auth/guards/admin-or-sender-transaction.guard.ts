@@ -22,9 +22,6 @@ export class AdminOrSenderTransactionGuard implements CanActivate {
       throw new NotFoundException('Transaction not found');
     }
 
-    console.log('user.id', user.id);
-    console.log('transaction.senderId', transaction.senderId);
-
     if (user.isAdmin || user.id === transaction.senderId) {
       return true;
     }
